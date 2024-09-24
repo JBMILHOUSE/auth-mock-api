@@ -1,5 +1,5 @@
 {
-  "name": "docker-to-connect-mongodb",
+  "name": "auth-mock-api",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",

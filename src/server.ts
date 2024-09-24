@@ -1,8 +1,8 @@
 import fastify from "fastify"
-// import getUser from "./routes/get-user"
+import { authenticateUser } from "./routes/login"
 
 const app = fastify()
 
-// app.register(getUser)
+app.register(authenticateUser)
 
 app.listen({ port: 3333 }).then(() => console.log('Server running!'))
